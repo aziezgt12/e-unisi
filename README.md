@@ -1,2 +1,0 @@
-# e-unisi
- aplikasiWisudaUnisi
