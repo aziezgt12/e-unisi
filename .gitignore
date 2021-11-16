@@ -1,31 +1,37 @@
+# Numerous always-ignore extensions
+*.txt
+*.log
+*.zip
+*.rar
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# Folders to ignore
+/node_modules/
+/dist/node_modules/
+/pages/layouts/
+
+# OS or Editor folders
+._*
+.cache
 .DS_Store
-
-application/cache/*
-!application/cache/index.html
-
-application/logs/*
-!application/logs/index.html
-
-!application/*/.htaccess
-
-composer.lock
-
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
-
-# IDE Files
-#-------------------------
-/nbproject/
-.idea/*
-
-## Sublime Text cache files
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
+.idea
+.vscode
+.project
+.settings
+.tmproj
+*.esproj
 *.sublime-project
-/tests/tests/
-/tests/results/
+*.sublime-workspace
+nbproject
+Thumbs.db
+
+# Komodo
+.komodotools
+*.komodoproject
